@@ -1,0 +1,737 @@
+/*********
+Style sheet for Detective Hughman
+***/
+
+/**The background image never changes so set this here**/
+body{
+	background-image: url('locations/dh-bg.png');
+}
+/***General for most/all pages***/
+.location{
+	border:10px solid black;
+	position: fixed;
+	width: 60%;
+	left: 15%;
+}
+			
+.side-menu{
+	position: fixed;
+	background-color: white;
+	border: 3px;
+	border-style: solid;
+	text-align: center;
+	overflow: auto;
+				
+	width: 15%;
+	height: 80%;
+	right: 7%;
+}
+
+
+.back{
+	background-color: black;
+	border: 2px;
+	border-style: solid;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+}
+
+.back:hover{
+	background-color: #4CAF50;
+}
+
+
+.start{
+	background-color: #4CAF50;
+	border: 3px;
+	border-style: solid;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+			
+.start:hover{
+	background-color: red;
+}
+
+.restart{
+	background-color: black;
+	border: 2px;
+	border-style: solid;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+		
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+	
+.restart:hover{
+	background-color: #4CAF50;
+}
+
+.dialogue-block{
+	position: fixed;
+	background-color: white;
+	border: 3px;
+	border-style: solid;
+	overflow: auto;
+	opacity: 90%;
+				
+	width: 20%;
+	height: 50%;
+	left: 37%;
+	bottom: 26%;
+}
+
+
+.added-item
+{
+	position: fixed;
+	background-color: white;
+	border: 3px;
+	border-style: solid;
+	overflow: auto;
+	opacity: 90%;
+	
+	width: 20%;
+	height: 50%;
+	left: 33%;
+	bottom: 26%;
+}
+
+
+
+
+/**This is specifically for the tutorial
+**/
+
+.talker{
+	background-color: black;
+	border: 2px;
+	border-style: solid;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;	
+	margin-left: 5px;
+}
+			
+.talker:hover{
+	background-color: #4CAF50;
+}
+			
+.talk-options{
+	margin-left: 15px;
+}
+
+			
+/****Art*/
+.art1{
+	position: fixed;
+	width: 12%;
+	height: 12%;
+	right: 30%;
+	bottom: 55%;
+}
+.art1:hover
+{
+	border: 2px solid black;
+}
+
+.plaqueOne{
+	background-image: url('items/plaque.jpg');
+	background-repeat: no-repeat;
+	background-size: 300px 120px;
+	position: fixed;
+	width: 25%;
+	height: 20%;
+	right: 50%;
+	bottom: 5%
+}
+	
+.art2{
+	position: fixed;
+	width: 9%;
+	height: 22%;
+	left: 47%;
+	bottom: 50%;
+		
+}
+
+.art2:hover
+{
+	border: 2px solid black;
+}
+
+.plaqueTwo{
+	background-image: url('items/plaque.jpg');
+	background-repeat: no-repeat;
+	background-size: 300px 120px;
+	position: fixed;
+	width: 25%;
+	height: 20%;
+	left: 16%;
+	bottom: 5%
+}
+	
+.art3{
+	position: fixed;
+	width: 6%;
+	height: 11%;
+	left: 38%;
+	bottom: 55%;	
+}
+
+.art3:hover
+{
+	border: 2px solid black;
+}
+
+.plaqueThree{
+	background-image: url('items/plaque.jpg');
+	background-repeat: no-repeat;
+	background-size: 300px 120px;
+	position: fixed;
+	width: 25%;
+	height: 20%;
+	left: 16%;
+	bottom: 5%
+}
+	
+.art4{
+	position: fixed;
+	width: 8%;
+	height: 15%;
+	left: 28%;
+	bottom: 53%;
+}
+
+.art4:hover
+{
+	border: 2px solid black;
+}
+
+.art5{
+	position: fixed;
+	width: 20%;
+	height: 19%;
+	right: 25%;
+	bottom: 60%;
+}
+
+.art5:hover
+{
+	border: 2px solid black;
+}
+
+
+.art6{
+	position: fixed;
+	width: 12%;
+	height: 32%;
+	left: 41%;
+	bottom: 56%;	
+}
+
+.art6:hover{
+	border: 2px solid black;
+}
+
+.art7{
+	position: fixed;
+	width: 9%;
+	height: 14%;
+	left: 30%;
+	bottom: 60%;
+	
+}
+
+.art7:hover{
+	border: 2px solid black;
+}
+
+.art8{
+	position: fixed;
+	width: 10%;
+	height: 20%;
+	left: 18%;
+	bottom: 57%;
+}
+
+.art8:hover{
+	border: 2px solid black;
+}
+
+/***placed objects**/
+.trashcan{
+	position: fixed;
+	width: 7%;
+	height: 12%;
+	left: 15.5%;
+	bottom: 27%;
+}
+
+.trashcandiv
+{
+	background: url('gallary-imgs/trashcan.png');
+	background-repeat: no-repeat;
+	background-size: 125px 150px;
+	
+	position: fixed;
+	width: 8%;
+	height: 23%;
+	left: 15.5%;
+	bottom: 23%;
+}
+
+.trashcandiv:hover{
+	
+	background: url('gallary-imgs/trashcan-outline.png');
+	background-repeat: no-repeat;
+	background-size: 125px 150px;
+}
+
+
+/***Standing in hall**/
+.douglas-standing{
+	background: url('gallary-imgs/douglas-f.png');
+	background-repeat: no-repeat;
+	background-size: 150px 400px;
+	
+	
+	position: fixed;
+	width: 15%;
+	height: 60%;
+	right: 50%;
+	bottom: 10%;
+	
+}
+
+.douglas-standing:hover{
+	background: url('gallary-imgs/douglas-outlined.png');
+	background-repeat: no-repeat;
+	background-size: 150px 400px;
+}
+
+
+.mrcurraine-standing{
+	background: url('gallary-imgs/mrcurraine-f.png');
+	background-repeat: no-repeat;
+	background-size: 250px 350px;
+	
+	position: fixed;
+	width: 13%;
+	height: 50%;
+	left: 20%;
+	bottom: 15%;
+}
+
+
+.mrcurraine-standing:hover{
+	background: url('gallary-imgs/curraine-outline.png');
+	background-repeat: no-repeat;
+	background-size: 250px 350px;
+}
+
+
+.ness-standing{
+	background: url('gallary-imgs/ness-f.png');
+	background-repeat: no-repeat;
+	background-size: 200px 370px;
+	
+	position: fixed;
+	width: 13%;
+	height: 55%;
+	right: 40%;
+	bottom: 10%;
+}
+
+.ness-standing:hover{
+	background: url('gallary-imgs/nessoutline.png');
+	background-repeat: no-repeat;
+	background-size: 200px 370px;
+}
+
+
+/***Lounge**/
+.seymore-standing{
+	background: url('gallary-imgs/seymore-f.png');
+	background-repeat: no-repeat;
+	background-size: 350px 450px;
+	
+	position: fixed;
+	width:25%;
+	height: 60%;
+	left: 16%;
+	bottom: 25%;
+}
+
+.seymore-standing:hover{
+	background: url('gallary-imgs/seymore-outline.png');
+	background-repeat: no-repeat;
+	background-size: 350px 450px;
+}
+
+
+.hannah-standing{
+	background: url('gallary-imgs/hannah-f.png');
+	background-repeat: no-repeat;
+	background-size: 300px 600px;
+	
+	
+	position: fixed;
+	width: 15%;
+	height: 70%;
+	right: 45%;
+	bottom: 10%;
+	
+}
+
+.hannah-standing:hover{
+	background: url('gallary-imgs/hannah-outline.png');
+	background-repeat: no-repeat;
+	background-size: 300px 600px;
+}
+
+
+.heather-standing{
+	background: url('gallary-imgs/heather-f.png');
+	background-repeat: no-repeat;
+	background-size: 320px 460px;
+	
+	
+	position: fixed;
+	width: 20%;
+	height: 60%;
+	right: 25%;
+	bottom: 10%;
+	
+}
+
+.heather-standing:hover{
+	background: url('gallary-imgs/heather-outline.png');
+	background-repeat: no-repeat;
+	background-size: 320px 460px;
+}
+
+
+
+/***Gallary**/
+.hydra-body{
+	background: url('character-profiles/hydra-body.png');
+	background-repeat: no-repeat;
+	background-size: 450px 150px;
+	
+	position: fixed;
+	width: 30%;
+	height: 30%;
+	right: 40%;
+	bottom: 10%;
+}
+
+.hydra-body:hover{	
+	background: url('gallary-imgs/hydra-outlined.png');
+	background-repeat: no-repeat;
+	background-size: 450px 150px;
+}
+
+
+/***Standing pre-gallary**/
+.douglas{
+	position: fixed;
+	width: 10%;
+	height: 40%;
+	right: 32%;
+	bottom: 25%;
+	
+}
+	
+.douglasf{
+	position: fixed;
+	width: 10%;
+	height: 40%;
+	right: 32%;
+	bottom: 25%;
+}
+	
+.douglas .douglas-text{
+	visibility: hidden;
+	position: fixed;
+	background-color: white;
+	border: 3px;
+	border-style: solid;
+		
+	width: 13%;
+	height: 8%;
+	right: 30%;
+	bottom: 65%;
+}
+	
+.douglas:hover .douglas-text{
+	visibility: visible;
+}
+	
+	
+.ness{
+	position: fixed;
+	width: 10%;
+	height: 40%;
+	right: 23%;
+	bottom: 22%;
+}
+	
+.nessf{
+	position: fixed;
+	width: 10%;
+	height: 40%;
+	right: 23%;
+	bottom: 22%;
+}
+	
+	
+.ness .ness-text{
+	visibility: hidden;
+	position: fixed;
+	background-color: white;
+	border: 3px;
+	border-style: solid;
+		
+	width: 7%;
+	height: 10%;
+	right: 25%;
+	bottom: 52%;
+}
+	
+.ness:hover .ness-text{
+	visibility: visible;
+}
+	
+.heather{
+	position: fixed;
+	width: 15%;
+	height: 50%;
+	left: 19%;
+	bottom: 13%;
+}
+	
+.heatherf{
+	position: fixed;
+	width: 15%;
+	height: 50%;
+	left: 19%;
+	bottom: 13%;
+}
+	
+.heather .heather-text{
+	visibility: hidden;
+	position: fixed;
+	background-color: white;
+	border: 3px;
+	border-style: solid;
+		
+	width: 13%;
+	height: 8%;
+	left: 25%;
+	bottom: 55%;
+}
+	
+.heather:hover .heather-text{
+	visibility:visible;
+}
+	
+.hannah{
+	position: fixed;
+	width: 10%;
+	height: 40%;
+	left: 20%;
+	bottom: 15%;
+}
+	
+.hannahf{
+	position: fixed;
+	width: 20%;
+	height: 55%;
+	left: 10%;
+	bottom: 13%;
+}
+	
+.hannah .hannah-text{
+	visibility: hidden;
+	position: fixed;
+	background-color: white;
+	border: 3px;
+	border-style: solid;
+		
+	width: 13%;
+	height: 10%;
+	left: 17%;
+	bottom: 60%;
+}
+	
+.hannah:hover .hannah-text{
+	visibility: visible;	
+}
+	
+	
+.seymore{
+	position: fixed;
+	width: 15%;
+	height: 50%;
+	left: 26%;
+	bottom: 5%;
+}
+
+.seymoref{
+	position: fixed;
+	width: 15%;
+	height: 50%;
+	left: 26%;
+	bottom: 5%;
+}
+	
+.seymore .seymore-text{
+	visibility: hidden;
+	position: fixed;
+	background-color: white;
+	border: 3px;
+	border-style: solid;
+		
+	width: 13%;
+	height: 10%;
+	left: 20%;
+	bottom: 10%;
+}
+	
+.seymore:hover .seymore-text{
+	visibility: visible;
+}
+	
+.mrcurraine{
+	position: fixed;
+	width: 15%;
+	height: 40%;
+	right: 25%;
+	bottom: 8%;
+}
+	
+.mrcurrainef{
+	position: fixed;
+	width: 22%;
+	height: 40%;
+	right: 20%;
+	bottom: 8%;
+}
+	
+.mrcurraine .curraine-text{
+	visibility: hidden;
+	position: fixed;
+	background-color: white;
+	border: 3px;
+	border-style: solid;
+	
+	width: 13%;
+	height: 10%;
+	right: 30%;
+	bottom: 12%;
+}
+	
+.mrcurraine:hover .curraine-text{
+	visibility: visible;
+}
+	
+.hydrabody{
+	position: fixed;
+	width: 21%;
+	height: 21%;
+	right: 40%;
+	bottom: 13%;
+}
+	
+.hydrabody:hover{
+		background-color: red;
+}
+
+/***Characters Talk**/
+.character1{
+	position: fixed;
+	width: 30%;
+	left: 49.5%;
+	bottom: 7%;
+}
+			
+.character2{
+	position: fixed;
+	width: 30%;
+	left: 12%;
+	bottom: 7%;
+}
+
+.character2c{
+	position: fixed;
+	width: 25%;
+	left: 16%;
+	bottom: 7%;
+}
+
+
+
+
+/***Items***/
+			
+.poison
+{
+	background-image: url('items/poison.png');
+	background-repeat: no-repeat;
+	background-size: 300px 350px;
+	background-position: center;
+	
+	position: fixed;
+	width: 15%;
+	height: 48%;
+	right: 50%;
+	bottom: 20%;
+}
+
+.poison:hover
+{
+	background-image: url('items/poison-outline.png');
+	background-repeat: no-repeat;
+	background-size: 300px 350px;
+}
+
+
+.milli {
+	background-image: url('items/millipede.png');
+	background-repeat: no-repeat;
+	background-size: 200px 250px;
+	background-position: center;
+	
+	position: fixed;
+	width: 10%;
+	height: 28%;
+	left: 14%;
+	bottom: 5%;
+}
+
+
+.milli:hover
+{
+	background-image: url('items/millipede-outlined.png');
+	background-repeat: no-repeat;
+	background-size: 200px 250px;
+}
+
+
